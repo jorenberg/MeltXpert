@@ -6,3 +6,5 @@
 <b>Research Poster:</b> NCGCP (National Conference on Green Chemistry and its Perspective), at Sant Gadge Baba Amravati University, Amravati, India from 11<sup>th</sup> – 12<sup>th</sup> Feb’ 2008.
 ## Citation
 [Prabhat Kumar](http://prabhatkumar.org/) _et al_. (2008) Nucleic Acid homo & hetero duplexes thermal behavior analysis program.
+
+<b>Copyright</b> © 2008, Prabhat Kumar. All rights reserved.
