@@ -32,3 +32,4 @@
 // =========================
 // main module.
 // @require   : grunt
+// @require   : grunt-cli
