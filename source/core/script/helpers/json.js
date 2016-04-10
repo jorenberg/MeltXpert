@@ -1,0 +1,18 @@
+/*!
+ * ~~~~~~~~~~~~
+ * json.js®   : An AMD plugin for loading JSON files.
+ * _________________________________________________________________
+ * @copyright : 2014, Miller Medeiros. All Rights Reserved.
+ * @help      : https://github.com/millermedeiros/requirejs-plugins
+ * @require   : requirejs
+ * @license   : MIT license.
+ * _________________________________________________________________
+ * Architecture and Code Handcrafted by Prabhat Kumar.
+ * Architectuur en Code handgemaakt door Prabhat Kumar.
+ * @author    : Prabhat Kumar [http://prabhatkumar.org/].
+ * @copyright : Prabhat Kumar [http://prabhatkumar.org/].
+ * _________________________________________________________________
+ *
+ * --/The Heart of AMD System/-- of "MeltXpert®".
+ * _________________________________________________________________
+ */
