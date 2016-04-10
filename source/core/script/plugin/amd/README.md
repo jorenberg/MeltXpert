@@ -77,3 +77,7 @@ The minimum definition:
 ```js
   define.amd = {};
 ```
+
+<a name="multiple" href="#multiple">#</a>&nbsp;<b>Transporting more than one module at a time</b>
+
+Multiple <b>define calls</b> can be made within a single script. The order of the define calls SHOULD NOT be significant. Earlier module definitions may specify dependencies that are defined later in the same script. It is the responsibility of the module loader to defer loading unresolved dependencies until the entire script is loaded to prevent unnecessary requests.
