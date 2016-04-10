@@ -129,3 +129,16 @@ A ```module``` defined using the simplified CommonJS wrapping:
      exports.action = function () {};
    });
 ```
+
+### Global Variables
+This specification reserves the global variable <b>"define"</b> for use in implementing this specification, the package metadata asynchronous definition API and is reserved for other future CommonJS APIs. Module loaders SHOULD not add additional methods or properties to this function.
+
+This specification reserves the global variable <b>"require"</b> for use by module loaders. Module loaders are free to use this global variable as they see fit. They may use the variable and add any properties or functions to it as desired for module loader specific functionality. They can also choose not to use <b>"require"</b> as well.
+
+### Usage notes
+It is recommended that define calls be in the literal form of ```'define(...)'``` in order to work properly with static analysis tools - like [build tools](http://gruntjs.com/).
+
+### Relation to CommonJS
+A version of this API started on the CommonJS wiki as a transport format, as Modules Transport/C, but it changed over time to also include a module definition API. Consensus was not reached on the CommonJS list about recommending this API as a module definition API. The API was transferred over to its own wiki and discussion group.
+
+AMD can be used as a transport format for CommonJS modules as long as the CommonJS module does not use computed, synchronous ```require('')``` calls. CommonJS code that use computed synchronous ```require('')``` code can be converted to use the callback-style [require](https://github.com/amdjs/amdjs-api/wiki/require) supported in most AMD loaders.
