@@ -81,3 +81,51 @@ The minimum definition:
 <a name="multiple" href="#multiple">#</a>&nbsp;<b>Transporting more than one module at a time</b>
 
 Multiple <b>define calls</b> can be made within a single script. The order of the define calls SHOULD NOT be significant. Earlier module definitions may specify dependencies that are defined later in the same script. It is the responsibility of the module loader to defer loading unresolved dependencies until the entire script is loaded to prevent unnecessary requests.
+
+## Examples
+### Using require and exports
+
+Sets up the module with ID of "alpha", that uses ```require```, ```exports``` and the ```module``` with ID of "beta":
+
+```js
+   define("alpha", ["require", "exports", "beta"], function (require, exports, beta) {
+       exports.verb = function() {
+           return beta.verb();
+           // Or:
+           return require("beta").verb();
+       }
+   });
+```
+
+An <b>anonymous module</b> that returns an <b>object literal:</b>
+
+```js
+   define(["alpha"], function (alpha) {
+       return {
+         verb: function(){
+           return alpha.verb() + 2;
+         }
+       };
+   });
+```
+
+A <b>dependency-free module</b> can define a <b>direct object literal:</b>
+
+```js
+   define({
+     add: function(x, y){
+       return x + y;
+     }
+   });
+```
+
+A ```module``` defined using the simplified CommonJS wrapping:
+
+```js
+   define(function (require, exports, module) {
+     var a = require('a'),
+         b = require('b');
+
+     exports.action = function () {};
+   });
+```
