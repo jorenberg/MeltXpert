@@ -180,3 +180,10 @@ Since DOM ready is a common application need, ideally the nested functions in th
 ```
 
 <b>Note:</b> If the document takes a while to load (maybe it is a very large document, or has HTML script tags loading large JS files that block DOM completion until they are done), using domReady as a loader plugin may result in a RequireJS "timeout" error. If this a problem either increase the "waitSeconds" configuration, or just use domReady as a module and call ```domReady()``` inside the ```require()``` callback.
+
+## 2. step
+An AMD loader plugin for loaders like RequireJS that will load scripts in steps.
+
+URL: https://github.com/requirejs/step
+
+<b>Note:</b> This allows us to load traditional scripts that do not use AMD in a sequential fashion. You should prefer the built-in ```shim config``` in RequireJS to step, since it is more expressive and allows you to get local exports references. If you have a bunch of scripts with dependency sets that would make ```shim``` hard to use, then this plugin may help.
