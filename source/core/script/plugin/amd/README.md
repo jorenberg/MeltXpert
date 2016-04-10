@@ -47,3 +47,11 @@ The dependencies argument is optional. If omitted, it should default to <b>["req
 The third argument, ```factory```, is a function that should be executed to instantiate the module or an object. If the factory is a function it should only be executed once. If the factory argument is an object, that object should be assigned as the exported value of the module.
 
 If the factory function returns a value (an ```object```, ```function```, or any value that coerces to true), then that value should be assigned as the exported value for the module.
+
+<a name="wrapping" href="#wrapping">#</a>&nbsp;<b>Simplified CommonJS wrapping</b>
+
+If the dependencies argument is omitted, the module loader MAY choose to scan the factory function for dependencies in the form of require statements (literally in the form of ```require("module-id"))```. The first argument must literally be named require for this to work.
+
+In some situations module loaders may choose not to scan for dependencies due to code size limitations or lack of toString support on functions (Opera Mobile is known to lack toString support for functions).
+
+If the dependencies argument is present, the module loader SHOULD NOT scan for dependencies within the ```factory function```.
