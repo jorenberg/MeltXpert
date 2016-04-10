@@ -259,3 +259,8 @@ MIT, https://opensource.org/licenses/MIT
 <b>James Burke</b>, Creator of ```requirejs``` and AMD plugins.
 
 HomePage: http://jrburke.com/ and https://github.com/jrburke
+
+### Special Thanks
+Sequømics Corporation, for providing Fund and Infrastructure.
+
+HomePage: http://sequomics.com/ and https://github.com/sequomics
