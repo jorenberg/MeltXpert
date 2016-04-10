@@ -251,3 +251,11 @@ important that they do not depend on each other.
 * It is slower loading than loading plain AMD modules. ```step``` waits for each previous step to complete loading before doing the next step. Doing an [r.js optimization build](http://requirejs.org/docs/optimization.html) when you are ready to deploy your code is strongly suggested.
 * When doing a build, include all the steps in the build output. If you use an `exclude` directive to exclude a step script, it will likely break when that built file is run in the browser.
 * ```step``` will read the step config the first time it is called, and "burn in" that config internally. So, it will not understand any further step config if it is set after the first ```step!``` reference.
+
+### License
+MIT, https://opensource.org/licenses/MIT
+
+### Thanks
+<b>James Burke</b>, Creator of ```requirejs``` and AMD plugins.
+
+HomePage: http://jrburke.com/ and https://github.com/jrburke
