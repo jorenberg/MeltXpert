@@ -41,3 +41,9 @@ The dependencies ids may be relative <b>ids</b>, and should be resolved relative
 This specification defines three special dependency names that have a distinct resolution. If the value of ```"require"```, ```"exports"```, or ```"module"``` appear in the dependency list, the argument should be resolved to the corresponding free variable as defined by the CommonJS modules specification.
 
 The dependencies argument is optional. If omitted, it should default to <b>["require", "exports", "module"]</b>. However, if the factory function's arity (length property) is less than 3, then the loader may choose to only call the factory with the number of arguments corresponding to the function's arity or length.
+
+<a name="factory" href="#factory">#</a>&nbsp;<b>factory</b>
+
+The third argument, ```factory```, is a function that should be executed to instantiate the module or an object. If the factory is a function it should only be executed once. If the factory argument is an object, that object should be assigned as the exported value of the module.
+
+If the factory function returns a value (an ```object```, ```function```, or any value that coerces to true), then that value should be assigned as the exported value for the module.
