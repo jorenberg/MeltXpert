@@ -142,3 +142,12 @@ It is recommended that define calls be in the literal form of ```'define(...)'``
 A version of this API started on the CommonJS wiki as a transport format, as Modules Transport/C, but it changed over time to also include a module definition API. Consensus was not reached on the CommonJS list about recommending this API as a module definition API. The API was transferred over to its own wiki and discussion group.
 
 AMD can be used as a transport format for CommonJS modules as long as the CommonJS module does not use computed, synchronous ```require('')``` calls. CommonJS code that use computed synchronous ```require('')``` code can be converted to use the callback-style [require](https://github.com/amdjs/amdjs-api/wiki/require) supported in most AMD loaders.
+
+<b>Note:</b> In MeltXpert®, We are using some loader plugins:
+
+## 1. domReady
+An AMD loader plugin for detecting DOM ready.
+
+URL: https://github.com/requirejs/domReady
+
+<b>Note:</b> Known to work in [RequireJS](https://github.com/requirejs/requirejs), but should work in other AMD loaders that support the same loader plugin API.
