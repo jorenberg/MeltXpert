@@ -55,3 +55,25 @@ If the dependencies argument is omitted, the module loader MAY choose to scan th
 In some situations module loaders may choose not to scan for dependencies due to code size limitations or lack of toString support on functions (Opera Mobile is known to lack toString support for functions).
 
 If the dependencies argument is present, the module loader SHOULD NOT scan for dependencies within the ```factory function```.
+
+<a name="property" href="#property">#</a>&nbsp;<b>define.amd property</b>
+
+To allow a clear indicator that a global define function (as needed for script "src" browser loading) conforms to the AMD API, any global define function SHOULD have a property called "amd" whose value is an object. This helps avoid conflict with any other existing JavaScript code that could have defined a ```define()``` function that does not conform to the AMD API.
+
+The properties inside the define.amd object are not specified at this time. It can be used by implementers who want to inform of other capabilities beyond the basic API that the implementation supports.
+
+Existence of the define.amd property with an object value indicates conformance with this API. If there is another version of the API, it will likely define another property, like define.amd2, to indicate implementations that conform to that version of the API.
+
+An example of how it may be defined for an implementation that allows loading more than one version of a module in an environment:
+
+```js
+  define.amd = {
+    multiversion: true
+  };
+```
+
+The minimum definition:
+
+```js
+  define.amd = {};
+```
