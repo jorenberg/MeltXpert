@@ -31,3 +31,13 @@ The CommonJS module id properties quoted above are normally used for JavaScript 
 - if module ```"a/b/c"``` asks for ```"./e"```, that resolves to ```"a/b/e"```
 
 If Loader-Plugins are supported in the AMD implementation, then "!" is used to separate the loader plugin's module <b>id</b> from the plugin's resource <b>id</b>. Since plugin resource <b>ids</b> can be extremely free-form, most characters should be allowed for plugin resource <b>ids</b>.
+
+<a name="dependencies" href="#dependencies">#</a>&nbsp;<b>dependencies</b>
+
+The second argument, ```dependencies```, is an array literal of the module <b>ids</b> that are dependencies required by the module that is being defined. The dependencies must be resolved prior to the execution of the module factory function, and the resolved values should be passed as arguments to the factory function with argument positions corresponding to indexes in the dependencies array.
+
+The dependencies ids may be relative <b>ids</b>, and should be resolved relative to the module being defined. In other words, relative <b>ids</b> are resolved relative to the <b>module's id</b>, and not the path used to find the <b>module's id</b>.
+
+This specification defines three special dependency names that have a distinct resolution. If the value of ```"require"```, ```"exports"```, or ```"module"``` appear in the dependency list, the argument should be resolved to the corresponding free variable as defined by the CommonJS modules specification.
+
+The dependencies argument is optional. If omitted, it should default to <b>["require", "exports", "module"]</b>. However, if the factory function's arity (length property) is less than 3, then the loader may choose to only call the factory with the number of arguments corresponding to the function's arity or length.
