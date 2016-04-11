@@ -70,3 +70,11 @@ A (non-empty) graph <i>G</i> is called <i>connected</i>, if any two of it's vert
 <a name="trees" href="#trees">#</a>&nbsp;<b>Trees and Forests:</b>
 
 An <i>acyclic</i> graph, one not containing any cycles, is called <i>forest</i>. A connected forest is called a <i>tree</i>. (Thus, a forest is a graph whose components are trees). The <i>vertices</i> of <i>degree</i> 1 in a tree are it's <i>leaves</i>. Every non-trivial tree has a leaf - consider, for example, the ends of a longest path.
+
+<b>Theorem:</b>
+
+<i>The following assertions are equivalent for a graph T</i>:
+- <i>T is a tree</i>;
+- <i>Any two vertices of T are linked by a unique path in T</i>;
+- <i>T is minimally connected, i.e. T is connected but T - e is disconnected for every edge e ∈ T</i>;
+- <i>T is maximally acyclic, i.e., T contains no cycle but T + xy does, for any two non-adjacent vertices x,y ∈ T</i>.
