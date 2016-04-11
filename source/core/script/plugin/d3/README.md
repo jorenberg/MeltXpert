@@ -16,3 +16,10 @@ URL: https://github.com/mbostock/d3 | https://d3js.org/.
 
 ## Graph Theory
 In mathematics and computer science, graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of <i>vertices</i>, <i>nodes</i>, or <i>points</i> which are connected by <i>edges</i>, <i>arcs</i>, or <i>lines</i>.
+
+### Definition
+The following are some of the more basic ways of defining graphs and related mathematical structures.
+
+<b>Graph:</b>
+
+In the most common sense of the term, a <i>graph</i> is an ordered pair <i>G = (V, E)</i> comprising a set <i>V</i> of <i>vertices</i> or <i>nodes</i> or <i>points</i> together with a set <i>E</i> of <i>edges</i> or <i>arcs</i> or <i>lines</i>, which are 2-element subsets of <i>V</i> (i.e. an edge is related with two vertices, and the relation is represented as an unordered pair of the vertices with respect to the particular edge).
