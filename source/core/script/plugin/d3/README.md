@@ -23,3 +23,9 @@ The following are some of the more basic ways of defining graphs and related mat
 <b>Graph:</b>
 
 In the most common sense of the term, a <i>graph</i> is an ordered pair <i>G = (V, E)</i> comprising a set <i>V</i> of <i>vertices</i> or <i>nodes</i> or <i>points</i> together with a set <i>E</i> of <i>edges</i> or <i>arcs</i> or <i>lines</i>, which are 2-element subsets of <i>V</i> (i.e. an edge is related with two vertices, and the relation is represented as an unordered pair of the vertices with respect to the particular edge).
+
+<b>Mathematical Expression:</b> <i>E</i> ⊆ [<i>V</i>]<sup>2</sup>;
+  
+  thus, the elements of <i>E</i> are 2-element subsets of <i>V</i>.
+
+<b>Note:</b> To avoid notational ambiguities, always assume tacitly that <i>V</i> ∩ <i>E</i> = Ø.
