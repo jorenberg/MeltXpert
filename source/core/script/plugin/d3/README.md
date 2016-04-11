@@ -29,3 +29,18 @@ In the most common sense of the term, a <i>graph</i> is an ordered pair <i>G = (
   thus, the elements of <i>E</i> are 2-element subsets of <i>V</i>.
 
 <b>Note:</b> To avoid notational ambiguities, always assume tacitly that <i>V</i> ∩ <i>E</i> = Ø.
+
+<a name="degree" href="#degree">#</a>&nbsp;<b>The degree of a vertex:</b>
+
+Let <i>G</i> = (<i>V</i>, <i>E</i>) be a (non-empty) graph.
+
+The <i>degree</i> (or <i>valency</i>) <i>d<sub>G</sub></i>(<i>u</i>) = <i>d</i>(<i>u</i>) of a vertex <i>u</i> is the number |<i>E</i>(<i>u</i>)| of edges at <i>u</i>; by the definition of a graph, this is equal to the number of neighbours of <i>u</i>.
+
+<b>Note:</b> A vertex of degree 0 is <i>isolated</i>.
+
+- The number ∂(<i>G</i>) := min { <i>d</i>(<i>u</i>) | <i>u</i> ∈ V }, is the <i>minimum degree</i> of <i>G</i>,
+- the number ∆(<i>G</i>) := max { <i>d</i>(<i>u</i>) | <i>u</i> ∈ V }, is the <i>maximum degree</i> of <i>G</i>.
+
+<b>Note:</b>
+- If all the vertices of <i>G</i> have the same degree <i>k</i>, then <i>G</i> is <i>k-regular</i>, or simply <i>regular</i>.
+- A 3-regular graph is called <i>cubic</i>.
