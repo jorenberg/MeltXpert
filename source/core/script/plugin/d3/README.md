@@ -78,3 +78,15 @@ An <i>acyclic</i> graph, one not containing any cycles, is called <i>forest</i>.
 - <i>Any two vertices of T are linked by a unique path in T</i>;
 - <i>T is minimally connected, i.e. T is connected but T - e is disconnected for every edge e ∈ T</i>;
 - <i>T is maximally acyclic, i.e., T contains no cycle but T + xy does, for any two non-adjacent vertices x,y ∈ T</i>.
+
+<a name="eulertour" href="#eulertour">#</a>&nbsp;<b>Euler Tour:</b>
+
+In <i>graph theory</i>, an <i>Eulerian trail</i> (or <i>Eulerian path</i>) is a trail in a graph which visits every <i>edge</i> exactly once.
+
+The term <i>Eulerian graph</i> has two common meanings in graph theory. One meaning is a graph with an <i>Eulerian circuit</i>, and the other is a graph with every <i>vertex</i> of even <i>degree</i>. These definitions coincide for connected graphs.
+
+<b>Definition:</b>
+
+An <i>Eulerian cycle</i>, <i>Eulerian circuit</i> or <i>Euler tour</i> in an <i>undirected graph</i> is a cycle that uses each <i>edge</i> exactly once. If such a cycle exists, the graph is called <i>Eulerian</i> or <i>unicursal</i>.
+
+<b>Note:</b> A graph is <i>Eulerian</i>, if it admits an <b>Euler Tour</b>.
