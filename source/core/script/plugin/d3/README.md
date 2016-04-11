@@ -66,3 +66,7 @@ Note, that <i>k</i> is allowed to be zero; thus, <i>P<sup>0</sup></i> = <i>K<sup
 A (non-empty) graph <i>G</i> is called <i>connected</i>, if any two of it's vertices are linked by a path in <i>G</i>. If <i>U</i> ⊆<i>V</i>(<i>G</i>) and <i>G</i>[<i>U</i>] is connected, also called <i>U</i> itself connected (in <i>G</i>).
 
 <b>Note:</b> Instead of 'not connected', usually can say 'disconnected'.
+
+<a name="trees" href="#trees">#</a>&nbsp;<b>Trees and Forests:</b>
+
+An <i>acyclic</i> graph, one not containing any cycles, is called <i>forest</i>. A connected forest is called a <i>tree</i>. (Thus, a forest is a graph whose components are trees). The <i>vertices</i> of <i>degree</i> 1 in a tree are it's <i>leaves</i>. Every non-trivial tree has a leaf - consider, for example, the ends of a longest path.
