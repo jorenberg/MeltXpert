@@ -1,0 +1,79 @@
+{
+  "data": {
+    "authors": [
+      "Allawi H.",
+      "SantaLucia J."
+    ],
+    "year": "1997",
+    "published": true,
+    "type": "crick",
+    "neighbor": [
+      {
+        "sequence": "AA/TT",
+        "enthalpy": "-7900.0",
+        "entropy": "-22.2"
+      },
+      {
+        "sequence": "AC/TG",
+        "enthalpy": "-8400.0",
+        "entropy": "-22.4"
+      },
+      {
+        "sequence": "AG/TC",
+        "enthalpy": "-7800.0",
+        "entropy": "-21.0"
+      },
+      {
+        "sequence": "AT/TA",
+        "enthalpy": "-7200.0",
+        "entropy": "-20.4"
+      },
+      {
+        "sequence": "CA/GT",
+        "enthalpy": "-8500.0",
+        "entropy": "-22.7"
+      },
+      {
+        "sequence": "CC/GG",
+        "enthalpy": "-8000.0",
+        "entropy": "-19.9"
+      },
+      {
+        "sequence": "CG/GC",
+        "enthalpy": "-10600.0",
+        "entropy": "-27.2"
+      },
+      {
+        "sequence": "GA/CT",
+        "enthalpy": "-8200.0",
+        "entropy": "-22.2"
+      },
+      {
+        "sequence": "GC/CG",
+        "enthalpy": "-9800.0",
+        "entropy": "-24.4"
+      },
+      {
+        "sequence": "TA/AT",
+        "enthalpy": "-7200.0",
+        "entropy": "-21.3"
+      }
+    ],
+    "initiation": [
+      {
+        "type": "per_A/T",
+        "enthalpy": "2300.0",
+        "entropy": "4.1"
+      },
+      {
+        "type": "per_G/C",
+        "enthalpy": "100.0",
+        "entropy": "-2.8"
+      }
+    ],
+    "symmetry": {
+      "enthalpy": "0.0",
+      "entropy": "-1.4"
+    }
+  }
+}
