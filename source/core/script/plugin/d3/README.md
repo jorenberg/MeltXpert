@@ -60,3 +60,9 @@ The vertices x<sub>0</sub> and x<sub>k</sub> are <i>linked</i> by <i>P</i> and a
 The number of edges of a path is it's <i>length</i>, and the path of length <i>k</i> is denoted by <i>P<sup>k</sup></i>.
 
 Note, that <i>k</i> is allowed to be zero; thus, <i>P<sup>0</sup></i> = <i>K<sup>1</sup></i>.
+
+<a name="connectivity" href="#connectivity">#</a>&nbsp;<b>Connectivity:</b>
+
+A (non-empty) graph <i>G</i> is called <i>connected</i>, if any two of it's vertices are linked by a path in <i>G</i>. If <i>U</i> ⊆<i>V</i>(<i>G</i>) and <i>G</i>[<i>U</i>] is connected, also called <i>U</i> itself connected (in <i>G</i>).
+
+<b>Note:</b> Instead of 'not connected', usually can say 'disconnected'.
