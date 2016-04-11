@@ -13,3 +13,6 @@ That's why, for <b>Scientific Data Visualization</b> we're using many algorithms
 D3.js (or just D3 for Data-Driven Documents) is a JavaScript library for producing dynamic, interactive data visualizations in web browsers. It makes use of the widely implemented HTML5, CSS and SVG standards. It allows great control over the final visual result. D3 emphasizes web standards and combines powerful visualization components with a data-driven approach to DOM manipulation, giving the full capabilities of modern browsers without tying to use a proprietary framework.
 
 URL: https://github.com/mbostock/d3 | https://d3js.org/.
+
+## Graph Theory
+In mathematics and computer science, graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of <i>vertices</i>, <i>nodes</i>, or <i>points</i> which are connected by <i>edges</i>, <i>arcs</i>, or <i>lines</i>.
