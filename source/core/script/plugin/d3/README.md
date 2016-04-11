@@ -8,3 +8,8 @@ A primary goal of data visualization is to communicate information clearly and e
 Data visualization is both an art and a science. It's a general term that describes any effort to help people understand the significance of data by placing it in a visual context, by help of Graph Theory. Patterns, trends and correlations that might go undetected in text-based data can be exposed and recognized easier with data visualization software.
 
 That's why, for <b>Scientific Data Visualization</b> we're using many algorithms, methods and principles of it in <b>MeltXpert®</b>.
+
+## D3 [Data-Driven Documents]
+D3.js (or just D3 for Data-Driven Documents) is a JavaScript library for producing dynamic, interactive data visualizations in web browsers. It makes use of the widely implemented HTML5, CSS and SVG standards. It allows great control over the final visual result. D3 emphasizes web standards and combines powerful visualization components with a data-driven approach to DOM manipulation, giving the full capabilities of modern browsers without tying to use a proprietary framework.
+
+URL: https://github.com/mbostock/d3 | https://d3js.org/.
