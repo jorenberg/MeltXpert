@@ -44,3 +44,19 @@ The <i>degree</i> (or <i>valency</i>) <i>d<sub>G</sub></i>(<i>u</i>) = <i>d</i>(
 <b>Note:</b>
 - If all the vertices of <i>G</i> have the same degree <i>k</i>, then <i>G</i> is <i>k-regular</i>, or simply <i>regular</i>.
 - A 3-regular graph is called <i>cubic</i>.
+
+<a name="cycles" href="#cycles">#</a>&nbsp;<b>Paths and Cycles:</b>
+
+A <i>path</i> is a (non-empty) graph <i>P</i> = (<i>V</i>, <i>E</i>) of the form,
+
+<i>V</i> = { x<sub>0</sub>, x<sub>1</sub>,..., x<i><sub>k</sub></i> }
+
+<i>E</i> = { x<sub>0</sub>x<sub>1</sub>, x<sub>1</sub>x<sub>2</sub>,..., x<i><sub>k-1</sub></i> - x<i><sub>k</sub></i> },
+
+Where the x<i><sub>i</sub></i> are all distinct.
+
+The vertices x<sub>0</sub> and x<sub>k</sub> are <i>linked</i> by <i>P</i> and are called it's <i>ends</i>; the vertices x<sub>1</sub>,..., x<sub>k-1</sub> are the <i>inner</i> vertices of <i>P</i>.
+
+The number of edges of a path is it's <i>length</i>, and the path of length <i>k</i> is denoted by <i>P<sup>k</sup></i>.
+
+Note, that <i>k</i> is allowed to be zero; thus, <i>P<sup>0</sup></i> = <i>K<sup>1</sup></i>.
