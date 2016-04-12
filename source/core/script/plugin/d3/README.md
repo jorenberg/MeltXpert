@@ -133,3 +133,19 @@ Note, that because Node itself lacks a DOM and multiple DOM implementations exis
 ```
 
 D3 can also run within a [WebWorker](http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html) by creating a [custom build](https://github.com/mbostock/smash/wiki) containing only the desired (non-DOM) features.
+
+<a name="installingd3" href="#installingd3">#</a>&nbsp;<b>Installing:</b>
+
+Download the latest version from here:
+
+- [https://github.com/mbostock/d3/releases](https://github.com/mbostock/d3/releases)
+
+Or, to link directly to the latest release, copy this snippet:
+
+```js
+  <script type="text/javascript" src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+```
+
+<b>Note:</b> The non-minified source code contains non-ASCII characters and must be served with `UTF-8` encoding, either via the `charset="utf-8"` attribute on the script tag or by adding `<meta charset="utf-8">` to the top of the page.
+
+If we see a SyntaxError: Unexpected token ILLEGAL at ```var Ï€ = Math.PI```, it is because we are serving the non-minified source with the incorrect `ISO-8859-1` encoding. See this [StackOverflow](http://stackoverflow.com/a/14301241) answer for more information.
