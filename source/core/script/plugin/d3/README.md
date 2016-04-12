@@ -94,3 +94,22 @@ An <i>Eulerian cycle</i>, <i>Eulerian circuit</i> or <i>Euler tour</i> in an <i>
 <b>Theorem:</b>
 
 <i>A connected graph is <b>Eulerian</b> if and only if every vertex has even degree</i>.
+
+## Visualising MeltXpert®
+In <b>MeltXpert®</b>, we're using [d3](https://github.com/mbostock/d3) as a core library and their following plugins for Data Visualization:
+
+01. [d3-array](https://github.com/d3/d3-array): <i>Array manipulation, ordering, searching, summarizing, etc</i>.
+02. [d3-collection](https://github.com/d3/d3-collection): <i>Handy data structures for elements keyed by string</i>.
+03. [d3-color](https://github.com/d3/d3-color): <i>Color spaces! RGB, HSL, Cubehelix, Lab (CIELAB) and HCL (CIELCH)</i>.
+04. [d3-dispatch](https://github.com/d3/d3-dispatch): <i>Register named callbacks and call them with arguments.</i>.
+05. [d3-ease](https://github.com/d3/d3-ease): <i>Easing functions for smooth animation</i>.
+06. [d3-force](https://github.com/d3/d3-force): <i>Force-directed graph layout using velocity Verlet integration</i>.
+07. [d3-hierarchy](https://github.com/d3/d3-hierarchy): <i>Layout algorithms for visualizing hierarchical data</i>.
+08. [d3-hive](https://github.com/d3/d3-plugins): <i>A plugin for rendering Hive Plots</i>.
+09. [d3-interpolate](https://github.com/d3/d3-interpolate): <i>Interpolate numbers, colors, strings, arrays, objects, whatever</i>.
+10. [d3-keybinding](https://github.com/d3/d3-plugins): <i>Keybindings for d3</i>.
+11. [d3-path](https://github.com/d3/d3-path): <i>Serialize Canvas path commands to SVG</i>.
+12. [d3-queue](https://github.com/d3/d3-queue): <i>Evaluate asynchronous tasks with configurable concurrency</i>.
+13. [d3-random](https://github.com/d3/d3-random): <i>Generate random numbers from various distributions</i>.
+14. [d3-selection](https://github.com/d3/d3-selection): <i>Transform the DOM by selecting elements and joining to data</i>.
+15. [d3-stack](https://github.com/mbostock/stack): <i>A presentation library with intuitive, scroll-based navigation</i>.
