@@ -150,7 +150,7 @@ Or, to link directly to the latest release, copy this snippet:
 
 If we see a SyntaxError: Unexpected token ILLEGAL at ```var Ï€ = Math.PI```, it is because we are serving the non-minified source with the incorrect `ISO-8859-1` encoding. See this [StackOverflow](http://stackoverflow.com/a/14301241) answer for more information.
 
-<a name="using-d3" href="#using-d3">#</a>&nbsp;<b>Using D3:</b>
+<a name="using-d3" href="#using-d3">#</a>&nbsp;<b>Using D3 with AMD:</b>
 
 When developing locally, note that our browser may enforce strict permissions for reading files out of the local file system. If we're using [<b>d3.xhr</b>](https://github.com/mbostock/d3/wiki/Requests) locally (including d3.json <i>et al</i>.), must have a local web server.
 
