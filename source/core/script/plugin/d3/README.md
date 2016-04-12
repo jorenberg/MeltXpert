@@ -177,3 +177,8 @@ MIT, https://opensource.org/licenses/MIT
 <b>Mike Bostock</b>, Creator of ```D3``` and their plugins.
 
 HomePage: http://bost.ocks.org/ and https://github.com/mbostock
+
+### Special Thanks
+Sequømics Corporation, for providing Fund and Infrastructure.
+
+HomePage: http://sequomics.com/ and https://github.com/sequomics
