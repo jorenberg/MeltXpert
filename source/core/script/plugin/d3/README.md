@@ -2,7 +2,7 @@
 ## Definition
 Data visualization or data visualisation is viewed by many disciplines as a modern equivalent of visual communication. (e.g. it is viewed as a branch of descriptive statistics by some, but also as a grounded theory development tool by others). It involves the creation and study of the visual representation of data, meaning "information that has been abstracted in some schematic form, including attributes or variables for the units of information".
 
-A primary goal of data visualization is to communicate information clearly and efficiently to users via the statistical graphics, plots, information graphicscharts selected. Effective visualization helps users analyze and reason about data and evidence. It makes complex data more accessible, understandable and usable. Users may have particular analytical tasks, such as making comparisons or understanding causality, and the design principle of the graphic (i.e., showing comparisons or showing causality) follows the task. Tables are generally used where users will look-up a specific measurement, while charts of various types are used to show patterns or relationships in the data for one or more variables.
+A primary goal of data visualization is to communicate information clearly and efficiently to users via the statistical graphics, plots, information graphics and charts. Effective visualization helps users analyze and reason about data and evidence. It makes complex data more accessible, understandable and usable. Users may have particular analytical tasks, such as making comparisons or understanding causality, and the design principle of the graphic (i.e., showing comparisons or showing causality) follows the task. Tables are generally used where users will look-up a specific measurement, while charts of various types are used to show patterns or relationships in the data for one or more variables.
 
 ## Why in MeltXpert®
 Data visualization is both an art and a science. It's a general term that describes any effort to help people understand the significance of data by placing it in a visual context, by help of Graph Theory. Patterns, trends and correlations that might go undetected in text-based data can be exposed and recognized easier with data visualization software.
@@ -150,9 +150,9 @@ Or, to link directly to the latest release, copy this snippet:
 
 If we see a SyntaxError: Unexpected token ILLEGAL at ```var Ï€ = Math.PI```, it is because we are serving the non-minified source with the incorrect `ISO-8859-1` encoding. See this [StackOverflow](http://stackoverflow.com/a/14301241) answer for more information.
 
-<a name="usingd3" href="#usingd3">#</a>&nbsp;<b>Using D3:</b>
+<a name="using-d3" href="#using-d3">#</a>&nbsp;<b>Using D3:</b>
 
-When developing locally, note that our browser may enforce strict permissions for reading files out of the local file system. If we're using [<b>d3.xhr</b>](https://github.com/mbostock/d3/wiki/Requests) locally (including d3.json et al.), must have a local web server.
+When developing locally, note that our browser may enforce strict permissions for reading files out of the local file system. If we're using [<b>d3.xhr</b>](https://github.com/mbostock/d3/wiki/Requests) locally (including d3.json <i>et al</i>.), must have a local web server.
 
 D3 supports the asynchronous module definition (AMD) API. For example, while using [RequireJS](http://requirejs.org/), it may load as follows:
 
