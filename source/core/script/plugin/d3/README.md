@@ -169,3 +169,11 @@ D3 supports the asynchronous module definition (AMD) API. For example, while usi
 ```
 
 <b>Note:</b> Rest of the d3's core library and their above plugins for Data Visualization defined [here](https://github.com/MeltXpert/MeltXpert/wiki).
+
+### License
+MIT, https://opensource.org/licenses/MIT
+
+### Thanks
+<b>Mike Bostock</b>, Creator of ```D3``` and their plugins.
+
+HomePage: http://bost.ocks.org/ and https://github.com/mbostock
