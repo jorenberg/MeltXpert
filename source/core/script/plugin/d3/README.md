@@ -113,3 +113,23 @@ In <b>MeltXpert®</b>, we're using [d3](https://github.com/mbostock/d3) as a cor
 13. [d3-random](https://github.com/d3/d3-random): <i>Generate random numbers from various distributions</i>.
 14. [d3-selection](https://github.com/d3/d3-selection): <i>Transform the DOM by selecting elements and joining to data</i>.
 15. [d3-stack](https://github.com/mbostock/stack): <i>A presentation library with intuitive, scroll-based navigation</i>.
+
+### Using d3
+
+<a name="usingd3" href="#usingd3">#</a>&nbsp;<b>Browser/Platform Support:</b>
+
+D3 supports so-called “modern” browsers, which generally means everything except IE8 and older versions. D3 is can work against Firefox, Chrome, Safari, Opera, IE9+, Android and iOS. Parts of D3 may work in older browsers, as the core D3 library has minimal requirements: JavaScript and the [W3C DOM](http://www.w3.org/DOM/) API. D3 uses the [Selectors API](http://www.w3.org/TR/selectors-api/) Level 1, but can work with preloading [Sizzle](http://sizzlejs.com/) for compatibility. We'll need a modern browser to use [SVG](http://www.w3.org/TR/SVG/) and [CSS3 Transitions](http://www.w3.org/TR/css3-transitions/). D3 is not a compatibility layer, so if any browser doesn't support standards, you're out of luck. Sorry!
+
+D3 also runs on [Node.js](http://nodejs.org/)®. Use ```npm install d3``` to <i>install</i> it.
+
+Note, that because Node itself lacks a DOM and multiple DOM implementations exist for it (e.g., [JSDOM](https://github.com/tmpvar/jsdom)), we'll need to explicitly pass in a DOM element to our d3 methods like so:
+
+```js
+  var d3 = require("d3"),
+      jsdom = require("jsdom");
+  
+  var document = jsdom.jsdom(),
+      svg = d3.select(document.body).append("svg");
+```
+
+D3 can also run within a [WebWorker](http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html) by creating a [custom build](https://github.com/mbostock/smash/wiki) containing only the desired (non-DOM) features.
