@@ -90,3 +90,7 @@ The term <i>Eulerian graph</i> has two common meanings in graph theory. One mean
 An <i>Eulerian cycle</i>, <i>Eulerian circuit</i> or <i>Euler tour</i> in an <i>undirected graph</i> is a cycle that uses each <i>edge</i> exactly once. If such a cycle exists, the graph is called <i>Eulerian</i> or <i>unicursal</i>.
 
 <b>Note:</b> A graph is <i>Eulerian</i>, if it admits an <b>Euler Tour</b>.
+
+<b>Theorem:</b>
+
+<i>A connected graph is <b>Eulerian</b> if and only if every vertex has even degree</i>.
