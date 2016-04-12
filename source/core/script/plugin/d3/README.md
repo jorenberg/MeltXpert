@@ -149,3 +149,21 @@ Or, to link directly to the latest release, copy this snippet:
 <b>Note:</b> The non-minified source code contains non-ASCII characters and must be served with `UTF-8` encoding, either via the `charset="utf-8"` attribute on the script tag or by adding `<meta charset="utf-8">` to the top of the page.
 
 If we see a SyntaxError: Unexpected token ILLEGAL at ```var Ï€ = Math.PI```, it is because we are serving the non-minified source with the incorrect `ISO-8859-1` encoding. See this [StackOverflow](http://stackoverflow.com/a/14301241) answer for more information.
+
+<a name="usingd3" href="#usingd3">#</a>&nbsp;<b>Using D3:</b>
+
+When developing locally, note that our browser may enforce strict permissions for reading files out of the local file system. If we're using [<b>d3.xhr</b>](https://github.com/mbostock/d3/wiki/Requests) locally (including d3.json et al.), must have a local web server.
+
+D3 supports the asynchronous module definition (AMD) API. For example, while using [RequireJS](http://requirejs.org/), it may load as follows:
+
+```js
+  require.config({
+    paths: {
+      d3: "https://d3js.org/d3.v3.min"
+    }
+  });
+
+  require(["d3"], function(d3) {
+    console.log(d3.version);
+  });
+```
