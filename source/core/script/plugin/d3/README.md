@@ -167,3 +167,5 @@ D3 supports the asynchronous module definition (AMD) API. For example, while usi
     console.log(d3.version);
   });
 ```
+
+<b>Note:</b> Rest of the d3's core library and their above plugins for Data Visualization defined [here](https://github.com/MeltXpert/MeltXpert/wiki).
