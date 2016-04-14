@@ -40,3 +40,5 @@
 // @require   : assemble
 
 // Note: To import project metadata into the -/Grunt/- config.
+// ~~^~~
+// @require   : bower.json
