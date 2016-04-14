@@ -1,0 +1,15 @@
+{
+  "compile": true,
+  "compress": false,
+  "ieCompat": true,
+  "noIDs": true,
+  "noJSPrefix": true,
+  "noOverqualifying": true,
+  "noUnderscores": true,
+  "noUniversalSelectors": true,
+  "zeroUnits": true,
+  "stripColors": true,
+  "strictUnits": false,
+  "strictPropertyOrder": true,
+  "paths": []
+}
