@@ -44,3 +44,7 @@
 // @require   : bower.json
 // @require   : package.json
 // @require   : _config.yml
+
+// ====================================
+// Grunt Task Registration through API.
+// ====================================
