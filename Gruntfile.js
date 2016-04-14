@@ -43,3 +43,4 @@
 // ~~^~~
 // @require   : bower.json
 // @require   : package.json
+// @require   : _config.yml
