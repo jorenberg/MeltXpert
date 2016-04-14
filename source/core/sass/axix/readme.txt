@@ -8,7 +8,8 @@
 // @require   : Sass + Compass
 // @require   : Ruby + Node.js® + Grunt
 // -------------------------------------------------------------------
-// Designed and Build with ♥ by prabhatkumar.org/.
+// Designed and Build with ♥ by Prabhat Kumar,
+// CEO, Founder & Data Scientist - Sequømics Corporation.
 // -------------------------------------------------------------------
 // @architecture    : Prabhat Kumar, http://prabhatkumar.org/
 // @author          : Prabhat Kumar, https://github.com/iamprabhat
