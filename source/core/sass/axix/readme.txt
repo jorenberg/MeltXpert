@@ -17,3 +17,6 @@
 // Copyright © 2014 - 2016 Prabhat Kumar, All Rights Reserved.
 // Licensed under Apache. ============================================
 // -------------------------------------------------------------------
+
+Note:- Explicitly declared only to use AXIX® framework, within the company, organisation, and it's open source projects.
+       Not to use outside - Strongly Restricted.
