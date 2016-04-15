@@ -1,0 +1,4 @@
+# .travis.yml, for "Travis CI" metadata of MeltXpert®.
+# @require  : Grunt/Node.js®/NPM
+# @task     : ./config/settings/bump.js
+# @author   : Prabhat Kumar, http://prabhatkumar.org/
