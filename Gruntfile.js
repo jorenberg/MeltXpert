@@ -62,3 +62,10 @@
 
 /* Invoking strict mode. */
 "use strict";
+
+/* ______________________________________________
+ * Settings for Build System.                   |
+ * _____________________________________________|
+ */
+var SERVER_PORT     = 9000;
+var LIVERELOAD_PORT = 35729;
