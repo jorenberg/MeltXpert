@@ -1,0 +1,4 @@
+# _config.yml, for metadata of MeltXpert®.
+# @require  : assemble
+# @task     : ./config/assembler.js
+# @author   : Prabhat Kumar, http://prabhatkumar.org/
